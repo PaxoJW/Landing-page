@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.hero, .footer {
+    background-color: #1F2937;
+}
+
+.main h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 40px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: light italic;
+}
+
+#quote-author {
+    font-size: 24px;
+    color: #1F2937;
+}
+
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero, .footer, .information, .quote, .call-to-action {
+    padding: 0 10vw;
+}
+
+ul {
+    display: flex;
+    gap:10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+
