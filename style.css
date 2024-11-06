@@ -8,15 +8,30 @@ body {
     background-color: #1F2937;
 }
 
+.hero {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.introduction-text {
+    width: 400px;
+}
+
 .main h1{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.hero {
-    font-size: 18px;
-    color: #E5E7EB;
+.main img {
+    background-color: #3882F6;
+    width: 400px;
 }
 
 .navigation {
@@ -24,9 +39,21 @@ body {
     justify-content: space-between;
 }
 
-.main {
+.information {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.information h3{
+    text-align: center;
+}
+
+.information img {
+    width: 100px;
+    height: 100px;
+    border: #3882F6;
+    border-radius: 10%;
+    border-width: 5px;
 }
 
 .quote {
@@ -56,7 +83,7 @@ body {
 
 ul {
     display: flex;
-    gap:10px;
+    gap:30px;
 }
 
 li {
@@ -70,6 +97,10 @@ a {
 
 button {
     background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10%;
+    border-style: none;
+    padding: 10px 20px;
 }
 
 
